@@ -69,11 +69,11 @@ test('Test an invalid date with missing fields', () => {
 })
 
 //test a valid 3 character hex
-test('Test a valid school email address', () => {
+test('Test a valid 3 character hex', () => {
     expect(functions.isHexColor('abc')).toBe(true);
 })
 //test a valid 6 character hex
-test('Test a valid gmail email address', () => {
+test('Test a valid 6 character hex', () => {
     expect(functions.isHexColor('E7DFC6')).toBe(true);
 })
 //test invalid hex with more characters
